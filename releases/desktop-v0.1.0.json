@@ -1,0 +1,98 @@
+{
+  "version": "0.1.0",
+  "sourceCommit": "69320a342b65e7894dd5d7d9568d27ec6179865c",
+  "desktopWorkflow": 37954060475,
+  "webAndroidWorkflow": 37954060341,
+  "macAutomaticUpdates": false,
+  "macPhysicalTest": false,
+  "realGoogleLoginTested": false,
+  "realEmailLoginTested": true,
+  "temporaryEmailAccountRemoved": true,
+  "authenticatedFlowsFullyTested": false,
+  "assets": {
+    "Junto-Mac-universal-0.1.0.dmg": {
+      "sha256": "988ac5c3805bfb00b98f69ca2374372a4cc593b0fb2afda0cba951c587b3d601",
+      "size": 233077253
+    },
+    "Junto-Mac-universal-0.1.0.zip": {
+      "sha256": "c9295de3a00a9981599e6629c4c7014ce7b5866b5520297dbbc03111a08ccb53",
+      "size": 232935770
+    },
+    "Junto-Mac-universal-0.1.0.dmg.blockmap": {
+      "sha256": "974247ab2ba3c870aef34e199fde4316ccc53b7b9ba215d6630cf6cdf75eefc9",
+      "size": 244007
+    },
+    "Junto-Mac-universal-0.1.0.zip.blockmap": {
+      "sha256": "751bc1b38883692315b999256dd392d1dc5916a8a2ad8f63bd6e34a15a4ad9ad",
+      "size": 243932
+    },
+    "latest-mac.yml": {
+      "sha256": "9b100cc6cf29ea1dd7ed089a9e56dfccbc86ed7397238b466686afab585681c3",
+      "size": 515
+    },
+    "Junto-Windows-x64-0.1.0.exe": {
+      "sha256": "8dfda037ef2477a24eb47be6642dd8871793f5fd5ae772d9622ad01c0c36e4cd",
+      "size": 115021463
+    },
+    "Junto-Windows-x64-0.1.0.exe.blockmap": {
+      "sha256": "ddc1349f524005aac3ad1a42d6adbad82b7c32f2dc8a7286a66b051dfaecbc80",
+      "size": 119991
+    },
+    "latest.yml": {
+      "sha256": "9a988986538f004a73fcf9e9a7a9619f0533c03a635b98d3ac0fdffeb972ece6",
+      "size": 351
+    }
+  },
+  "verification": {
+    "junto-desktop-tests-Windows.zip": {
+      "info": {
+        "name": "Juntô",
+        "version": "0.1.0",
+        "commit": "69320a342b65e7894dd5d7d9568d27ec6179865c",
+        "platform": "win32",
+        "macAutomaticUpdates": false
+      },
+      "security": true,
+      "externalLinks": true,
+      "resize": true,
+      "offlineReconnect": true,
+      "passwordLogin": "mocked",
+      "sessionRestart": "mocked",
+      "googleColdCallback": "mocked",
+      "googleWarmCallback": "mocked",
+      "googleCancelInvalidDuplicate": true,
+      "pkceExchanges": 2,
+      "errors": []
+    },
+    "windowsUpgrade": {
+      "from": "0.0.9",
+      "to": "0.1.0",
+      "realNsisInstallation": true,
+      "realElectronUpdaterDownload": true,
+      "downloadFailureKeptCurrentVersion": true,
+      "sessionPreserved": true,
+      "sessionType": "controlled local fixture",
+      "isolatedAppId": true
+    },
+    "junto-desktop-tests-Mac.zip": {
+      "info": {
+        "name": "Juntô",
+        "version": "0.1.0",
+        "commit": "69320a342b65e7894dd5d7d9568d27ec6179865c",
+        "platform": "darwin",
+        "macAutomaticUpdates": false
+      },
+      "security": true,
+      "externalLinks": true,
+      "resize": true,
+      "offlineReconnect": true,
+      "passwordLogin": "mocked",
+      "sessionRestart": "mocked",
+      "googleColdCallback": "mocked",
+      "googleWarmCallback": "mocked",
+      "googleCancelInvalidDuplicate": true,
+      "pkceExchanges": 2,
+      "errors": []
+    }
+  }
+}
